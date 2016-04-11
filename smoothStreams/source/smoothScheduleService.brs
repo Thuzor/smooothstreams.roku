@@ -82,6 +82,9 @@ function smoothScheduleService_schedule()
                         live : true,
                         time: programme.time
                     }
+
+                    if programme.quality = "720p" then programmeAA.ShortDescriptionLine1 = programmeAA.ShortDescriptionLine1 + " (720p)"
+
                     
                     ' nested programmes under categories.
                     if NOT scheduleArray.DoesExist(programme.category) then
