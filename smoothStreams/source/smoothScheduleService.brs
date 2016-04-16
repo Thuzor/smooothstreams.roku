@@ -61,10 +61,10 @@ function smoothScheduleService_schedule()
                  
                 if currTime<showEndTime then
                     'Now showing
-                    if currTime>showStartTime
-                        m.channels[strToI(programme.channel)].shortDescriptionLine1 = "Now Showing"
-                        m.channels[strToI(programme.channel)].shortDescriptionLine2 = programme.name
-                    endif
+                    ' if currTime>showStartTime
+                    '    m.channels[strToI(programme.channel)].shortDescriptionLine1 = "Now Showing"
+                    '    m.channels[strToI(programme.channel)].shortDescriptionLine2 = programme.name
+                    ' endif
                     ' Programme Associative Array    
                     programmeAA = {
                         StreamBitrates : ["0"],
